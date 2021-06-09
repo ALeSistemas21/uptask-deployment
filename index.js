@@ -37,7 +37,7 @@ app.use(flash());
 app.use(cookieParser());
 
 app.use(session({
-    secret: 'supersecreto',
+    secret: 'secretkey',
     resave: false,
     saveUninitialized:false
 }))
